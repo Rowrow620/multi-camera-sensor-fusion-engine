@@ -272,6 +272,3 @@ Output: `crop_cnn.keras`, `images/cnn/learning_curves.jpg`, `images/cnn/confusio
 - Deep Learning for 3D Vision: https://www.tensorflow.org/tutorials/images/transfer_learning
 
 ---
-
-**Report Generated:** May 18, 2026  
-**Status:** Final submission for CSCI 682
