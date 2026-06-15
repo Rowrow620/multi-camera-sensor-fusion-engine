@@ -1,5 +1,4 @@
 # Stereo Depth Target Classification using a CNN
-**CSCI 682 Final Project**  
 **Juan Sanchez**  
 **May 18, 2026**
 
