@@ -21,13 +21,13 @@ A two-stage computer vision & sensor fusion pipeline designed to isolate objects
 
 ## Pipeline Visual Demonstrations
 
-### Example 1: Yellow Duck Stereo Pair (Single Object)
+### Example 1: Primary object detection (Single Object)
 ![Yellow Duck Stereo Pair Demo](images/demo_duck.png)
 
 ### Example 2: Primary object detection (Multi-Object Scene)
-![Primary Object Detection Demo](images/demo_plush.png)
+![Primary Object Detection Demo](images\example2.png)
 
-### Example 3: Plush & Card Stereo Pair (Multi-Object Scene)
+### Example 3: Multi-object detection (Multi-Object Scene)
 ![Plush Character Stereo Pair Demo](images/demo_plush.png)
 
 ---
