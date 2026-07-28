@@ -21,29 +21,23 @@ A two-stage computer vision & sensor fusion pipeline designed to isolate objects
 
 ## Pipeline Visual Demonstrations
 
-### 1. Primary Target Detection (Yellow Duck)
+### Example 1: Primary Target Detection (Yellow Duck)
 ![Duck Target Detection](images/demo_duck.png)
-
-### 2. Calibrated Stereo Pair 1 (Toy Car Object)
-![Stereo Benchmark Pair 1](images/demo_pair1.png)
-
-### 3. Calibrated Stereo Pair 2 (Alternate Viewpoint)
-![Stereo Benchmark Pair 2](images/demo_pair2.png)
 
 ---
 
 ## System Architecture
 
 ```mermaid
-graph TD
-    A[Left RGB Image] --> C[Stereo Rectification & SGBM Disparity]
-    B[Right RGB Image] --> C
-    C --> D[Depth Thresholding & Morphological Filter]
-    D --> E[Connected Components ROI Extraction]
-    E --> F[Cropped RGB Object Targets]
-    F --> G[Data Augmentation Pipeline]
-    G --> H[MobileNetV2 Pretrained Backbone]
-    H --> I[Softmax Object Classification]
+flowchart TD
+    A["Left RGB Image"] --> C["Stereo Rectification and SGBM Disparity"]
+    B["Right RGB Image"] --> C
+    C --> D["Depth Thresholding and Morphological Filter"]
+    D --> E["Connected Components ROI Extraction"]
+    E --> F["Cropped RGB Object Targets"]
+    F --> G["Data Augmentation Pipeline"]
+    G --> H["MobileNetV2 Pretrained Backbone"]
+    H --> I["Softmax Object Classification"]
 ```
 
 ---
