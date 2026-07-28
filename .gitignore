@@ -1,0 +1,29 @@
+# Build outputs
+build/
+bin/
+*.exe
+*.out
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+*.keras
+*.h5
+
+# Project dataset & crop outputs
+crops/
+*.png
+*.jpg
+!images/**/*.jpg
+!images/**/*.png
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
