@@ -19,6 +19,7 @@ venv/
 generate_sample_crops.py
 test_stereo_pipeline.py
 generate_readme_demos.py
+test_plush_pair.py
 
 # Project dataset & crop outputs
 crops/
