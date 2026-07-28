@@ -19,6 +19,19 @@ A two-stage computer vision & sensor fusion pipeline designed to isolate objects
 
 ---
 
+## Pipeline Visual Demonstrations
+
+### 1. Primary Target Detection (Yellow Duck)
+![Duck Target Detection](images/demo_duck.png)
+
+### 2. Calibrated Stereo Pair 1 (Toy Car Object)
+![Stereo Benchmark Pair 1](images/demo_pair1.png)
+
+### 3. Calibrated Stereo Pair 2 (Alternate Viewpoint)
+![Stereo Benchmark Pair 2](images/demo_pair2.png)
+
+---
+
 ## System Architecture
 
 ```mermaid

@@ -18,6 +18,7 @@ venv/
 # Local helper scripts
 generate_sample_crops.py
 test_stereo_pipeline.py
+generate_readme_demos.py
 
 # Project dataset & crop outputs
 crops/
