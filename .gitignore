@@ -15,6 +15,9 @@ venv/
 *.keras
 *.h5
 
+# Local helper scripts
+generate_sample_crops.py
+
 # Project dataset & crop outputs
 crops/
 *.png
